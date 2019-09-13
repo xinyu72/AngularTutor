@@ -1,0 +1,24 @@
+.firstbox {
+  width: available;
+  height: 500px;
+  background: linear-gradient(to right, #F98323,#F9CB23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.choosebox{
+  width: 400px;
+  height: 250px;
+  background: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.input {
+  margin: 5px;
+}

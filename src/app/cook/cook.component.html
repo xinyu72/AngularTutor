@@ -1,0 +1,28 @@
+<div class="firstbox">
+  <h1 style="color: white">This is a cooking game</h1>
+  <div class="choosebox">
+
+    <p style="font-family: '.SF NS Text';color: gray">Please input the name of ingredients</p>
+
+    <div class="input">
+      <span>ingredients 1</span>
+      <input type="text" [(ngModel)]="ingredients1">
+    </div>
+
+    <div class="input">
+      <span>ingredients 2</span>
+      <input type="text" [(ngModel)]="ingredients2">
+    </div>
+
+    <div>
+      <button class="btn btn-light" (click)="Cook()" style="margin-right: 10px"> Start to cook </button>
+      <button class="btn btn-light" (click)="CleanAll()"> Clean everything </button>
+    </div>
+
+    <div>
+      <div *ngIf="clicked"> You Got {{ingredients1}} with {{ingredients2}} </div>
+    </div>
+
+
+  </div>
+</div>
